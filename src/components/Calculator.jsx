@@ -18,7 +18,7 @@ const Calculator = () => {
           alt="background-image"
           className="h-[100vh] w-[100vw] absolute"
         />
-        <h1 className="text-bold text-sm text-gray-600 pt-1 relative">
+        <h1 className="text-bold text-sm text-gray-600 pt-10 relative">
           BMI Calculator
         </h1>
 
