@@ -23,7 +23,7 @@ const Calculator = () => {
         </h1>
 
         <form action="" onSubmit={handleSubmit(handleValue)}>
-          <div className="flex gap-5 justify-center mt-8 relative">
+          <div className="flex gap-5 justify-center mt-40 relative">
             <input
               type="text"
               {...register("height")}
