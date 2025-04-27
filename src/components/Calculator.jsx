@@ -23,7 +23,7 @@ const Calculator = () => {
         </h1>
 
         <form action="" onSubmit={handleSubmit(handleValue)}>
-          <div className="flex gap-5 justify-center mt-5 relative">
+          <div className="flex gap-5 justify-center mt-8 relative">
             <input
               type="text"
               {...register("height")}
@@ -39,13 +39,13 @@ const Calculator = () => {
           </div>
           <button
             type="submit"
-            className=" bg-blue-500 text-white p-1 rounded hover:bg-blue-600  mt-2  w-[350px] text-[10px] relative"
+            className=" bg-blue-500 text-white p-1 rounded hover:bg-blue-600  mt-8 w-[350px] text-[10px] relative"
           >
             Check Your BMI
           </button>
         </form>
 
-        <div className="text-bold text-3xl text-gray-600 relative">
+        <div className="text-bold text-4xl text-gray-600 relative mt-5">
           {bmiValue}
         </div>
       </div>
