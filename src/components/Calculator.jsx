@@ -18,7 +18,7 @@ const Calculator = () => {
           alt="background-image"
           className="h-[100vh] w-[100vw] absolute"
         />
-        <h1 className="text-bold text-sm text-gray-600 pt-50 relative">
+        <h1 className="text-bold text-3xl text-gray-600 pt-10 relative">
           BMI Calculator
         </h1>
 
@@ -28,18 +28,18 @@ const Calculator = () => {
               type="text"
               {...register("height")}
               placeholder="Enter Your Height"
-              className=" outline-none  text-[3px]  w-[80px] rounded-[2px] p-0.5 text-white bg-gray-600 "
+              className=" outline-none  text-[5px]  w-1/2 rounded-[2px] p-1 text-white bg-gray-600 "
             />
             <input
               type="text"
               {...register("weight")}
               placeholder="Enter Your Weight"
-              className=" outline-none text-[3px]  w-[80px] rounded-[2px]  p-0.5 text-white bg-gray-600"
+              className=" outline-none text-[3px]  w-1/2 rounded-[2px]  p-0.5 text-white bg-gray-600"
             />
           </div>
           <button
             type="submit"
-            className=" bg-blue-500 text-white p-0.5 rounded hover:bg-blue-600  mt-2  w-[150px] text-[5px] relative"
+            className=" bg-blue-500 text-white p-1 rounded hover:bg-blue-600  mt-2  w-[350px] text-[8px] relative"
           >
             Check Your BMI
           </button>
