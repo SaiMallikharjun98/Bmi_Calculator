@@ -12,13 +12,11 @@ const Calculator = () => {
   };
   return (
     <>
-      <div className="text-center ">
-        <img
-          src="/Images/premium_photo-1681400641919-d5d03f6c0720.avif"
-          alt="background-image"
-          className="h-[100vh] w-[100vw] absolute"
-        />
-        <h1 className="text-bold text-3xl text-gray-600 pt-10 relative">
+      <div className="w-[500px]  outline-none shadow-lg mx-auto">
+        <div className="text-bold text-4xl text-gray-600 relative mt-5">
+          {bmiValue}
+        </div>
+        <h1 className="text-bold text-3xl text-gray-600 pt-10">
           BMI Calculator
         </h1>
 
@@ -44,10 +42,6 @@ const Calculator = () => {
             Check Your BMI
           </button>
         </form>
-
-        <div className="text-bold text-4xl text-gray-600 relative mt-5">
-          {bmiValue}
-        </div>
       </div>
     </>
   );
