@@ -37,7 +37,7 @@ const Calculator = () => {
           </div>
           <button
             type="submit"
-            className=" bg-blue-500 text-white p-1 rounded hover:bg-blue-600  mt-8 w-[350px] text-[10px] relative"
+            className=" bg-blue-500 text-white  rounded hover:bg-blue-600  mt-8 w-[350px] text-[15px] p-4"
           >
             Check Your BMI
           </button>
