@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 const Calculator = () => {
-  const [bmiValue, setBmiValue] = useState();
+  const [bmiValue, setBmiValue] = useState("🚗🤹‍♂️");
   let { register, handleSubmit, reset } = useForm();
   const handleValue = (data) => {
     const height = parseFloat(data.height) / 100;
@@ -13,9 +13,7 @@ const Calculator = () => {
   return (
     <>
       <div className="w-[700px] h-1/2 outline-none shadow-2xl text-center my-28 mx-auto p-4">
-        <div className="font-bold text-4xl text-gray-600  mt-8">
-          {bmiValue}
-        </div>
+        <div className="font-bold text-4xl text-gray-600  mt-8">{bmiValue}</div>
         <h1 className="text-bold text-3xl text-gray-600 pt-10">
           BMI Calculator
         </h1>
