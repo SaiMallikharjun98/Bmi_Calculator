@@ -12,7 +12,7 @@ const Calculator = () => {
   };
   return (
     <>
-      <div className="w-[500px]  outline-none shadow-lg text-center mt-20">
+      <div className="w-[500px] h-screen outline-none shadow-lg text-center my-28 mx-auto">
         <div className="font-bold text-4xl text-gray-600  mt-8">
           {bmiValue}
         </div>
