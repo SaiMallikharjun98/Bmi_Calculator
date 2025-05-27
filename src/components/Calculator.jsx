@@ -12,8 +12,8 @@ const Calculator = () => {
   };
   return (
     <>
-      <div className="w-[500px]  outline-none shadow-lg mx-auto">
-        <div className="text-bold text-4xl text-gray-600 relative mt-5">
+      <div className="w-[500px]  outline-none shadow-lg text-center mt-20">
+        <div className="font-bold text-4xl text-gray-600  mt-8">
           {bmiValue}
         </div>
         <h1 className="text-bold text-3xl text-gray-600 pt-10">
@@ -21,18 +21,18 @@ const Calculator = () => {
         </h1>
 
         <form action="" onSubmit={handleSubmit(handleValue)}>
-          <div className="flex gap-5 justify-center mt-40 relative">
+          <div className="flex gap-5 justify-center mt-5">
             <input
               type="text"
               {...register("height")}
               placeholder="Enter Your Height"
-              className=" outline-none  text-[10px]  w-[250px] rounded-[2px] p-3 text-white bg-gray-600 "
+              className=" outline-none  text-[15px]  w-[250px] rounded-[2px] p-3 text-white bg-gray-400 "
             />
             <input
               type="text"
               {...register("weight")}
               placeholder="Enter Your Weight"
-              className=" outline-none text-[10px]  w-[250px] rounded-[2px]  p-3 text-white bg-gray-600"
+              className=" outline-none text-[15px]  w-[250px] rounded-[2px]  p-3 text-white bg-gray-400"
             />
           </div>
           <button
